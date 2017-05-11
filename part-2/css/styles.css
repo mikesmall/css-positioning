@@ -13,6 +13,11 @@ html {
 
 body {
   margin: 0;
+
+}
+
+h1 {
+  margin-top: 0;
 }
 
 img {
@@ -24,6 +29,38 @@ figure {
 }
 
 .film {
+  position: relative;
   width: 50%;
   margin: 40px auto;
+  margin-left: 40px;
+  border: 1px solid grey;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.film-poster {
+  float: left;
+  width: 260px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.film-details {
+
+}
+
+.action-watch-later {
+  position: absolute;
+  padding-right: 16px;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  color: red;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: red;
 }
